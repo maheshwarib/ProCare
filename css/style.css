@@ -1,0 +1,193 @@
+.header {
+  background: #29293d;
+  padding: 15px 0;
+  position: relative;
+  border-bottom: 1px solid #181825;
+}
+
+.welcome-message {
+  color: #63839c;
+  float: left;
+  font-size: 15px;
+
+}
+a{
+  list-style-type:  none;
+}
+.top-nav {
+  float: right;
+
+}
+.top-nav ul{
+  margin: 0;
+  padding: 0;
+}
+.top-nav li {
+  float: left;
+  color: #63839c;
+  font-size: 14px;
+  padding-right: 20px;
+}
+.top-nav .tel {
+  border-left: 0;
+}
+
+.top-nav a {
+  padding: 0 20px;
+  line-height: 40px;
+  letter-spacing: 0.25px;
+  font-size: 15px;
+}
+
+#header{
+  width: 100%;
+}
+.logo{
+  float: left;
+  margin-top: 11px;
+}
+.logo-mobile
+{
+  display: none;
+}
+#main-navigation-wrapper.navbar-default {
+  background: transparent;
+  border: none;
+  min-height: auto;
+  background: #FFF;
+  border-top: 1px solid #38374C;
+  border-radius: 0;
+  margin: 0;
+  padding: 20px 0;
+}
+#main-navigation-wrapper .navbar-collapse {
+  padding-left: 0;
+  padding-right: 0;
+}
+#main-navigation-wrapper .nav > li {
+  padding: 15px 0;
+}
+#main-navigation-wrapper .nav > li > a {
+  padding: 4px 0;
+  font-size: 15px;
+  font-family: "Raleway", sans-serif;
+  font-weight: bold;
+  color: #000;
+  text-transform: uppercase;
+  padding-right: 18px;
+}#main-navigation-wrapper .nav > li + li > a {
+  padding-left: 20px;
+  border-left: 1px dashed rgba(255, 255, 255, 0.4);
+}
+#main-navigation-wrapper .navbar-form {
+  padding: 0;
+  margin: 0;
+}
+#main-navigation-wrapper .navbar-nav {
+  margin-left: 0;
+  margin-right: 0;
+}
+#main-navigation-wrapper.navbar-default .navbar-nav > .open > a, #main-navigation-wrapper.navbar-default .navbar-nav > .open > a:focus, #main-navigation-wrapper.navbar-default .navbar-nav > .open > a:hover, #main-navigation-wrapper.navbar-default .navbar-nav > li:hover > a {
+  background: none;
+  color: #C4D114;
+}
+#main-navigation-wrapper .navbar-form {
+  background: #1C1C29;
+  padding: 15px 30px;
+}
+#main-navigation-wrapper .navbar-form input {
+  border-radius: 0;
+  border: none;
+  outline: none;
+  background-color: transparent;
+  width: calc(100% - 32px);
+}
+#main-navigation-wrapper .navbar-form button {
+  border: none;
+  outline: none;
+  background-color: transparent;
+}
+#main-navigation-wrapper .navbar-nav > li > .dropdown-submenu {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  z-index: 1000;
+  display: none;
+  float: left;
+  min-width: 160px;
+  font-size: 14px;
+  text-align: left;
+  list-style: none;
+  background-color: #fff;
+  background-clip: padding-box;
+  padding: 0;
+  margin-top: 20px;
+  border: none;
+  border-radius: 0;
+  display: block;
+  opacity: 0;
+  visibility: hidden;
+  -webkit-transition: all .4s ease;
+          transition: all .4s ease;
+  min-width: 220px;
+  background: #1C1C29;
+  -webkit-transform: translate3d(-20px, 0, 0);
+          transform: translate3d(-20px, 0, 0);
+}
+#main-navigation-wrapper .navbar-nav > li:hover > .dropdown-submenu,
+#main-navigation-wrapper .navbar-nav > .open > .dropdown-submenu {
+  opacity: 1;
+  visibility: visible;
+  -webkit-transform: translate3d(0px, 0, 0);
+          transform: translate3d(0px, 0, 0);
+}
+#main-navigation-wrapper .dropdown-submenu > li > a {
+  display: block;
+  padding: 3px 20px;
+  clear: both;
+  font-weight: 400;
+  line-height: 1.42857143;
+  color: #333;
+  white-space: nowrap;
+  padding: 11px 20px;
+  text-transform: uppercase;
+  color: #C8C8DA;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  font-size: 13px;
+  font-family: "Raleway", sans-serif;
+  font-weight: 500;
+}
+#main-navigation-wrapper .dropdown-submenu > li > a:focus,
+#main-navigation-wrapper .dropdown-submenu > li > a:hover {
+  background-color: transparent;
+  color: #46b9e3;
+}
+
+.finance-navbar.affix {
+    top: 0;
+    left: 0;
+    right: 0;
+    position: fixed !important;
+    margin: 0;
+    animation: fadeItIn 1s;
+    z-index: 1000;
+    padding: 5px 0 !important;
+    min-height: 70px !important;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+body {
+  letter-spacing: .03em;
+  font-size: 15px;
+  color: #898989;
+  line-height: 26px;
+  font-family: "Open Sans", sans-serif;
+}
+.thm-container {
+  width: 100%;
+  max-width: 1170px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.thm-container.full-boxed {
+  max-width: 100%;
+}

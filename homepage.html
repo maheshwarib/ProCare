@@ -1,10 +1,12 @@
 <!DOCTYPE html>
 <html>
-
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.carousel.min.css">
@@ -13,7 +15,8 @@
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
 	<link rel="stylesheet" href="https://github.com/chadyred/Stroke-Gap-Icons-Webfont.git">
 	<link rel="stylesheet" href="css/style.css">
-	<link rel="stylesheet" type="text/css" href="css/responsive.css">
+	<link rel="stylesheet" href="css/responsive.css">
+	<link rel="stylesheet" href="css/animate.css">
 	<title>Procare Accounting Solutions</title>
 
 </head>
@@ -36,20 +39,20 @@
 		</div>
 	</header>
 
-	<nav id="main-navigation-wrapper" class="navbar navbar-default finance-navbar">
+	<nav id="main-navigation-wrapper" class="navbar navbar-default finance-navbar affix">
 		<div class="thm-container">
 			<div class="logo pull-left">
 				<a href="#" class="logo-desktop"><img src="images/icon/logo1.jpeg" alt="Awesome Image"></a>
 				<a href="#" class="logo-mobile"><img src="images/icon/logo1.jpeg" alt="Awesome Image"></a>
 			</div>
 			<div class="navbar-header">
-				<button type="button" data-toggle="collapse" data-target="#main-navigation" aria-expanded="false" class="navbar-toggle collapsed"><span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button>
-			</div>
-			<div id="main-navigation" class="collapse navbar-collapse">
+          <button type="button" data-toggle="collapse" data-target="#main-navigation" aria-expanded="false" class="navbar-toggle collapsed"><span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button>
+      </div>
+			<div id="main-navigation" class="navbar-collapse collapse" aria-expanded="false" style="height: 2px;">
 				<ul class="nav navbar-nav pull-right">
-					<li><a href="#">Home</a></li>
-					<li><a href="#">about us</a></li>
-					<li class="dropdown"><a href="#">Services</a>
+					<li><a href="homepage.html">Home</a></li>
+					<li><a href="about.html">about us</a></li>
+					<li class="dropdown"><a href="services.html">Services</a>
 						<ul class="dropdown-submenu">
 							<li><a href="#">Business growth</a></li>
 							<li><a href="#">Busniess Loan</a></li>
@@ -75,7 +78,7 @@
 							<li><a href="#">Projects Two</a></li>
 						</ul>
 					</li>
-					<li class="dropdown"><a href="#">Blogs</a>
+					<li class="dropdown"><a href="blog.html">Blogs</a>
 						<ul class="dropdown-submenu">
 							<li><a href="#">Blogs Right</a></li>
 							<li><a href="#">Blogs Left</a></li>
@@ -83,7 +86,7 @@
 							<li><a href="#">Blogs Details Left</a></li>
 						</ul>
 					</li>
-					<li class="dropdown"><a href="#">shop</a>
+					<li class="dropdown"><a href="shop.html">shop</a>
 						<ul class="dropdown-submenu">
 							<li><a href="#">shop</a></li>
 							<li><a href="#">Product Details</a></li>
@@ -91,7 +94,7 @@
 							<li><a href="#">Checkout Page</a></li>
 						</ul>
 					</li>
-					<li><a href="#">contact us</a></li>
+					<li><a href="contactus.html">contact us</a></li>
 					<li>
 						<form id="demo-2">
 							<input type="search" placeholder="Search">
@@ -104,16 +107,17 @@
 
 	<div id="minimal-bootstrap-carousel" data-ride="carousel" class="carousel slide carousel-fade shop-slider">
 
-		<div role="listbox" class="carousel-inner">
-			<div style="background-image: url(images/slider/1-1.jpg);background-position: center right;" class="item active slide-1">
+		<div class="carousel-inner" role="listbox">
+
+			<div style="background-image: url(images/slider/1-1.jpg);background-position:center right;" class="item active slide-1">
 				<div class="carousel-caption">
 					<div class="thm-container">
 						<div class="box valign-bottom">
 							<div class="content text-center">
-								<h2 data-animation="animated fadeInUp">Professional Guidance</h2>
-								<p data-animation="animated fadeInDown">You will be always aware of all business and financial news and stay informed with <br>investment tips, market predictions, business advice and guides. </p>
-								<a data-animation="animated fadeInLeft" href="#" class="thm-button">Learn more <i class="fa fa-arrow-right"></i></a>
-								<a data-animation="animated fadeInRight" href="#" class="thm-button inverse">View services <i class="fa fa-arrow-right"></i></a>
+								<h2 data-animation="animated fadeInUp" class="animated fadeInUp">Professional Guidance</h2>
+								<p data-animation="animated fadeInDown" class="animated fadeInDown">You will be always aware of all business and financial news and stay informed with <br>investment tips, market predictions, business advice and guides. </p>
+								<a data-animation="animated fadeInLeft" href="#" class="animated fadeInLeft thm-button">Learn more <i class="fa fa-arrow-right"></i></a>
+								<a data-animation="animated fadeInRight" href="#" class="animated fadeInRight thm-button inverse">View services <i class="fa fa-arrow-right"></i></a>
 							</div>
 						</div>
 					</div>
@@ -124,10 +128,10 @@
 					<div class="thm-container">
 						<div class="box valign-bottom">
 							<div class="content text-center">
-								<h2 data-animation="animated fadeInUp">We can manage your finance</h2>
-								<p data-animation="animated fadeInDown">You will be always aware of all business and financial news and stay informed with <br>investment tips, market predictions, business advice and guides. </p>
-								<a data-animation="animated fadeInLeft" href="#" class="thm-button">Learn more <i class="fa fa-arrow-right"></i></a>
-								<a data-animation="animated fadeInRight" href="#" class="thm-button inverse">View services <i class="fa fa-arrow-right"></i></a>
+								<h2 data-animation="animated fadeInUp" class="animated fadeInUp">We can manage your finance</h2>
+								<p data-animation="animated fadeInDown" class="animated fadeInDown">You will be always aware of all business and financial news and stay informed with <br>investment tips, market predictions, business advice and guides. </p>
+								<a data-animation="animated fadeInLeft" href="#" class="thm-button animated fadeInLeft">Learn more <i class="fa fa-arrow-right"></i></a>
+								<a data-animation="animated fadeInRight" href="#" class=" animated fadeInRight thm-button inverse">View services <i class="fa fa-arrow-right"></i></a>
 							</div>
 						</div>
 					</div>
@@ -138,10 +142,10 @@
 					<div class="thm-container">
 						<div class="box valign-bottom">
 							<div class="content text-center">
-								<h2 data-animation="animated fadeInUp">We can solve your problems</h2>
-								<p data-animation="animated fadeInDown">You will be always aware of all business and financial news and stay informed with <br>investment tips, market predictions, business advice and guides. </p>
-								<a data-animation="animated fadeInLeft" href="#" class="thm-button">Learn more <i class="fa fa-arrow-right"></i></a>
-								<a data-animation="animated fadeInRight" href="#" class="thm-button inverse">View services <i class="fa fa-arrow-right"></i></a>
+								<h2 data-animation="animated fadeInUp" class="animated fadeInUp">We can solve your problems</h2>
+								<p data-animation="animated fadeInDown" class="animated fadeInDown">You will be always aware of all business and financial news and stay informed with <br>investment tips, market predictions, business advice and guides. </p>
+								<a data-animation="animated fadeInLeft" href="#" class="animated fadeInLeft thm-button">Learn more <i class="fa fa-arrow-right"></i></a>
+								<a data-animation="animated fadeInRight" href="#" class="animated fadeInRight thm-button inverse">View services <i class="fa fa-arrow-right"></i></a>
 							</div>
 						</div>
 					</div>
@@ -596,6 +600,19 @@
 			</div>
 		</div>
 	</section>
-</body>
+	<script src="plugins/jquery.min.js"></script>
+    <script src="plugins/bootstrap/js/bootstrap.min.js"></script>
+    <script src="plugins/owl.carousel-2/owl.carousel.min.js"></script>
+    <script src="https://maps.googleapis.com/maps/api/js"></script>
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/gmaps.js/0.4.24/gmaps.min.js"></script>
+    <script src="plugins/map-helper.js"></script>
+    <script src="plugins/jquery.mixitup.min.js"></script>
+    <script src="plugins/bootstrap-select/dist/js/bootstrap-select.min.js"></script>
+    <script src="plugins/Chart.min.js"></script>
+    <script src="plugins/jquery-validation/dist/jquery.validate.min.js"></script>
+    <script src="plugins/waypoints.min.js"></script>
+    <script src="plugins/jquery.counterup.min.js"></script>
+    <script src="js/theme.js"></script>
 
+</body>
 </html>
